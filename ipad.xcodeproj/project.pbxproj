@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3413E68F1AC1631400E35279 /* SplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3413E68E1AC1631400E35279 /* SplitController.swift */; };
 		34756C571AC06B2B002C86C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34756C561AC06B2B002C86C5 /* AppDelegate.swift */; };
-		34756C591AC06B2B002C86C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34756C581AC06B2B002C86C5 /* ViewController.swift */; };
 		34756C5C1AC06B2B002C86C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34756C5A1AC06B2B002C86C5 /* Main.storyboard */; };
 		34756C5E1AC06B2B002C86C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34756C5D1AC06B2B002C86C5 /* Images.xcassets */; };
 		34756C611AC06B2B002C86C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34756C5F1AC06B2B002C86C5 /* LaunchScreen.xib */; };
 		34756C6D1AC06B2B002C86C5 /* ipadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34756C6C1AC06B2B002C86C5 /* ipadTests.swift */; };
+		34756C771AC07255002C86C5 /* RightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34756C761AC07255002C86C5 /* RightController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3413E68E1AC1631400E35279 /* SplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitController.swift; sourceTree = "<group>"; };
 		34756C511AC06B2B002C86C5 /* ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34756C551AC06B2B002C86C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34756C561AC06B2B002C86C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34756C581AC06B2B002C86C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34756C5B1AC06B2B002C86C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34756C5D1AC06B2B002C86C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34756C601AC06B2B002C86C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		34756C661AC06B2B002C86C5 /* ipadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34756C6B1AC06B2B002C86C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34756C6C1AC06B2B002C86C5 /* ipadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ipadTests.swift; sourceTree = "<group>"; };
+		34756C761AC07255002C86C5 /* RightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				34756C561AC06B2B002C86C5 /* AppDelegate.swift */,
-				34756C581AC06B2B002C86C5 /* ViewController.swift */,
+				34756C761AC07255002C86C5 /* RightController.swift */,
 				34756C5A1AC06B2B002C86C5 /* Main.storyboard */,
 				34756C5D1AC06B2B002C86C5 /* Images.xcassets */,
 				34756C5F1AC06B2B002C86C5 /* LaunchScreen.xib */,
 				34756C541AC06B2B002C86C5 /* Supporting Files */,
+				3413E68E1AC1631400E35279 /* SplitController.swift */,
 			);
 			path = ipad;
 			sourceTree = "<group>";
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34756C591AC06B2B002C86C5 /* ViewController.swift in Sources */,
+				3413E68F1AC1631400E35279 /* SplitController.swift in Sources */,
+				34756C771AC07255002C86C5 /* RightController.swift in Sources */,
 				34756C571AC06B2B002C86C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = ipad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +413,7 @@
 				34756C721AC06B2B002C86C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34756C731AC06B2B002C86C5 /* Build configuration list for PBXNativeTarget "ipadTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				34756C751AC06B2B002C86C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
